@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            width: 80%;
+            margin: auto;
+        }
+        .gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <h2>Have you ever been there?</h2>
+    <div class="gallery">
+        <img src="https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg" alt="Ảnh 1">
+        <img src="https://images.pexels.com/photos/210415/pexels-photo-210415.jpeg" alt="Ảnh 2">
+        <img src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg" alt="Ảnh 3">
+        <img src="https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg" alt="Ảnh 4">
+        <img src="https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg" alt="Ảnh 5">
+        <img src="https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg" alt="Ảnh 6">
+    </div>
+</body>
+</html>
